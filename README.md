@@ -23,6 +23,9 @@
   ⚠️ Bad Connection : Website Works 50% (Need To Check By Yourself)
   
   
+  ↩️ Redirects : Website works, but it redirects to the new domain.
+  
+  
   🛂 DDoS Guard : Website Works But Cloudflare Or Any Other Anti-DDoS Service Is Forcing Us To Wait
   
   
@@ -32,7 +35,7 @@
 
 * Easy-To-Use
 * Fast Checker
-* Test URLs For : _Live, Bad Connection, DDoS Guard or Dead_
+* Test URLs For : _Live, Bad Connection, DDoS Guard, Redirects or Dead_
 * Saves Results
 
 # Disclaimer
@@ -61,6 +64,7 @@
   - ```live.txt```
   - ```bad_con.txt```
   - ```ddos_guard.txt```
+  - ```redirects.txt```
   - ```dead.txt```
 
 # Credits
