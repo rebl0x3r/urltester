@@ -13,10 +13,19 @@
 
 # General Information
 
-  This is an simple urltester which is checking the header of every request to the given website and saves it in file.
+  This is an simple urltester which is checking the header of every request to the given website and saves it in file. 
+  You only need URLs, then paste it with ```nano urls.txt``` into the urls.txt file, and then start it.
+  
+  
   ✅ Live : Website Works 100%
+  
+  
   ⚠️ Bad Connection : Website Works 50% (Need To Check By Yourself)
+  
+  
   🛂 DDoS Guard : Website Works But Cloudflare Or Any Other Anti-DDoS Service Is Forcing Us To Wait
+  
+  
   ❌ Dead : Website Is Not Reachable - Sometimes it's an error because any other DDoS Guards are on the website.
 
 # Features
