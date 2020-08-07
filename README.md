@@ -1,6 +1,6 @@
 # URL-Tester
 
-!(Screenshot)[screenshot.png]
+![Screenshot](screenshot.png)
 
 # Table of contents:
 * [General Information](#general-info)
