@@ -23,7 +23,7 @@ clear
 echo -e "${BOLD}${GREEN}"
 figlet UrlTester
 echo -e "			${MAGENTA}by @TheMasterCH"
-echo -e "                                   ${BLUE}v${RED}0${BLUE}.${RED}4"
+echo -e "                                   ${BLUE}v${RED}0${BLUE}.${RED}4b"
 echo ""
 echo -e "${RED}[!] ATLEAST NOT ALL LINKS WITH PATHS ARE WORKING"
 echo ""
@@ -153,7 +153,7 @@ done < "$file"
 echo -ne "${GREEN}[i] ${BLUE}Clear your url file ?[Y/N]:${YELLOW} "
 read xxx
 
-if [[ "$xxx" == "Y" | "$xxx" == "y" ]]; then
+if [[ "$xxx" == "Y" || "$xxx" == "y" ]]; then
   echo "" > $file
 else
   exit
