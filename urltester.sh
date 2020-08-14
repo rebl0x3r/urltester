@@ -67,12 +67,12 @@ echo
 echo -e "${GREEN}[*] ${BLUE}Configuring file..."
 sleep 1
 echo ""
-sort -u $file | uniq >> new.txt && rm $file
-awk '!a[$0]++' new.txt >> urls.txt
-if [ -f new.txt ]
+awk '!a[$0]++' $file >> url.txt
+if [ -f urls.txt ]
 then
-  rm new.txt
+  rm urls.txt
 fi 
+mv url.txt urls.txt
 sleep 0.5
 echo -e "${GREEN}[i] ${BLUE}Done."
 sleep 0.5
