@@ -23,7 +23,7 @@ clear
 echo -e "${BOLD}${GREEN}"
 figlet UrlTester
 echo -e "			${MAGENTA}by @TheMasterCH"
-echo -e "                                   ${BLUE}v${RED}0${BLUE}.${RED}4b"
+echo -e "                                   ${BLUE}v${RED}0${BLUE}.${RED}5"
 echo ""
 echo -e "${RED}[!] ATLEAST NOT ALL LINKS WITH PATHS ARE WORKING"
 echo ""
@@ -61,6 +61,42 @@ echo ""
 echo -ne "${YELLOW}[*] ${BLUE}Select file(${RED}urls.txt${BLUE}):${CYAN} "
 read file
 echo
+
+# Configure Url List
+
+echo -e "${GREEN}[*] ${BLUE}Configuring file..."
+sleep 1
+echo ""
+sort -u $file | uniq >> new.txt && rm $file
+awk '!a[$0]++' new.txt >> urls.txt
+if [ -f new.txt ]
+then
+  rm new.txt
+fi 
+sleep 0.5
+echo -e "${GREEN}[i] ${BLUE}Done."
+sleep 0.5
+echo ""
+sleep 0.5
+echo -ne "${YELLOW}[>] ${BLUE}Press [ENTER] to continue"
+read continue
+
+# Removing All /
+
+# BETA!
+
+#while read line
+#do
+#  echo "$line" | cut -f1-3 -d"/" >> url.txt
+#done < urls.txt
+
+#if [ -f urls.txt ]
+#then
+#  rm urls.txt
+#fi  
+#mv url.txt urls.txt
+
+# Please do not unmark it.
 
 # Configuration
 
