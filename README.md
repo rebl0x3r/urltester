@@ -81,7 +81,7 @@ _Channels :_
                
 _Coder & Contact :_
   
-[TheMasterCH](https://t.me/themasterch)
+[TheMasterCH](https://t.me/mrblackx2_0)
 
 # Bug Report
   If you found any bug or issue, pless go [here](https://github.com/rebl0x3r/urltester/issues)
