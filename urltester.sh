@@ -22,7 +22,7 @@ useragent="User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebK
 clear
 echo -e "${BOLD}${GREEN}"
 figlet UrlTester
-echo -e "			${MAGENTA}by @TheMasterCH"
+echo -e "			${MAGENTA}by @MrBlackx"
 echo -e "                                   ${BLUE}v${RED}0${BLUE}.${RED}5"
 echo ""
 echo -e "${RED}[!] ATLEAST NOT ALL LINKS WITH PATHS ARE WORKING"
